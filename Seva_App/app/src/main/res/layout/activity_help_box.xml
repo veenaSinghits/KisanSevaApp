@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/helpbox"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".help_box">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+        <Button
+            android:id="@+id/textbt"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:text="संदेश भेजे"
+            android:textStyle="bold"
+            android:alpha="127"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            android:background="@drawable/box"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+        <Button
+            android:id="@+id/mailbt"
+            android:alpha="127"
+            android:textSize="19sp"
+            android:background="@drawable/box"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:textColor="#FFFFFF"
+            android:text="मेल भेजे"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+        <Button
+            android:id="@+id/callbt"
+            android:alpha="127"
+            android:textSize="20sp"
+            android:background="@drawable/box"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:text="फ़ोन"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>
