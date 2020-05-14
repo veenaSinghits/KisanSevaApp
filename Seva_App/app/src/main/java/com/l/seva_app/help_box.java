@@ -23,7 +23,7 @@ public class help_box extends AppCompatActivity {
             button1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    String number = "9467258306";  // The number on which you want to send SMS
+                    String number = "";  // The number on which you want to send SMS
                     startActivity(new Intent(Intent.ACTION_VIEW, Uri.fromParts("sms", number, null)));
                 }
             });
@@ -46,7 +46,7 @@ public class help_box extends AppCompatActivity {
             button3.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    String phone = "9467258306";
+                    String phone = "";
                     Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel", phone, null));
                     startActivity(intent);
 
